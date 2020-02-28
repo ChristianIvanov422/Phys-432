@@ -11,4 +11,5 @@ modifies the Lax-Friedrich code from advection.py to also include diffusion, and
 
 ### Notes
 From advection.py, we see that the FTCS scheme is unstable and rapidly explodes, while the Lax-Friedrich scheme is stable.
+
 From advection-diffusion.py, we see that adding in diffusion "smoothes out" the curve, and that the larger the diffusion constant is, the smoother it gets.
